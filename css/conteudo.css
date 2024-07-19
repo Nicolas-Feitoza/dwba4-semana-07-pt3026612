@@ -1,18 +1,5 @@
 @charset "UTF-8";
 
-#conteudo .grid-container {
-    display: inline-grid;
-    grid-template-columns: auto auto;
-}
-
-#conteudo .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    padding: 0px;
-    font-size: 12px;
-    text-align: center;
-}
-
 #conteudo {
     width: 100%;
     float: right;		
@@ -38,6 +25,10 @@ figure img {
 figure figcaption {
     border: 1px dotted blue;
     text-align: center; 
+}
+
+p {
+   color: #666; 
 }
 
 h1{
